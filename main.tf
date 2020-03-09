@@ -2,7 +2,7 @@ provider "acme" {
   server_url = var.acme_url
 }
 
-resource "tls_private_key" "tpot_private_key" {
+resource "tls_private_key" "private_key" {
   algorithm = "RSA"
   rsa_bits  = 4096
 }
